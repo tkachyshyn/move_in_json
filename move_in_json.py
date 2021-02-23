@@ -44,4 +44,4 @@ def keys(data):
     except KeyError:
         print("That is a wrong key. Please, enter the right one:\n")
         keys(data)
-print(keys(open_file('friends.json')))
+print(keys(open_file('move_in_json/friends.json')))
